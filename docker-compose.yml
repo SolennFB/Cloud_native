@@ -4,10 +4,10 @@ services:
 
   db:
     build: db
-    image: solennfb/cloud-native-db:1.0.0
+    image: sebkhedim/cloud-native-db:1.0.0
 
   words:
     build: back
-    image: solennfb/cloud-native-api:1.0.0
+    image: sebkhedim/cloud-native-api:1.0.0
     ports:
     - "8080:8080"
